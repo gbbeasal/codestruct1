@@ -1,0 +1,145 @@
+2022-06-26 00:51:43 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-06-26 00:51:43 INFO Proxy environment variables:
+2022-06-26 00:51:43 INFO http_proxy: 
+2022-06-26 00:51:43 INFO no_proxy: 
+2022-06-26 00:51:43 INFO https_proxy: 
+2022-06-26 00:51:43 INFO Agent will take identity from EC2
+2022-06-26 00:51:43 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-06-26 00:51:43 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-06-26 00:51:43 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-06-26 00:51:43 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.1.1188.0
+2022-06-26 00:51:43 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2022-06-26 00:51:43 INFO [CredentialRefresher] Identity does not require credential refresher
+2022-06-26 00:51:44 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker is not running, starting worker process
+2022-06-26 00:51:44 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker (pid:1388) started
+2022-06-26 00:51:44 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Monitor long running worker health every 60 seconds
+2022-06-26 00:51:45 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Agent will take identity from EC2
+2022-06-26 00:51:45 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-06-26 00:51:45 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-06-26 00:51:45 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Create new startup processor
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Start to listen to Core Agent health channel
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Start to listen to Core Agent termination channel
+2022-06-26 00:51:45 INFO [ssm-agent-worker] [StartupProcessor] Executing startup processor tasks
+2022-06-26 00:51:45 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: Amazon SSM Agent v3.1.1188.0 is running
+2022-06-26 00:51:45 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsProductName: Ubuntu
+2022-06-26 00:51:45 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsVersion: 18.04
+2022-06-26 00:51:45 INFO [ssm-agent-worker] Entering SSM Agent hibernate - EC2RoleRequestError: no EC2 instance role found
+caused by: EC2MetadataError: failed to make EC2Metadata request
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+	status code: 404, request id: 
+2022-06-26 01:32:02 INFO [amazon-ssm-agent] amazon-ssm-agent got signal:terminated value:0x7f46fba7b720
+2022-06-26 01:32:02 INFO [amazon-ssm-agent] Stopping Core Agent
+2022-06-26 01:32:02 INFO [ssm-agent-worker] Received termination message from core agent {"SchemaVersion":1,"Topic":"TerminateWorkerRequest","Payload":null}
+2022-06-26 01:32:02 INFO [ssm-agent-worker] Stopping ssm agent worker
+2022-06-26 01:32:02 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Receiving stop signal, stop worker monitor
+2022-06-26 01:32:09 INFO [amazon-ssm-agent] Bye.
+2022-07-18 14:06:01 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-07-18 14:06:01 INFO Proxy environment variables:
+2022-07-18 14:06:01 INFO https_proxy: 
+2022-07-18 14:06:01 INFO http_proxy: 
+2022-07-18 14:06:01 INFO no_proxy: 
+2022-07-18 14:06:01 INFO Agent will take identity from EC2
+2022-07-18 14:06:01 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-18 14:06:01 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-18 14:06:01 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-18 14:06:01 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.1.1188.0
+2022-07-18 14:06:01 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2022-07-18 14:06:01 INFO [CredentialRefresher] Identity does not require credential refresher
+2022-07-18 14:06:02 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker is not running, starting worker process
+2022-07-18 14:06:02 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker (pid:1533) started
+2022-07-18 14:06:02 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Monitor long running worker health every 60 seconds
+2022-07-18 14:06:03 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Agent will take identity from EC2
+2022-07-18 14:06:03 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-07-18 14:06:03 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-07-18 14:06:03 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Create new startup processor
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Entering SSM Agent hibernate - EC2RoleRequestError: no EC2 instance role found
+caused by: EC2MetadataError: failed to make EC2Metadata request
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+	status code: 404, request id: 
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Start to listen to Core Agent health channel
+2022-07-18 14:06:03 INFO [ssm-agent-worker] [StartupProcessor] Executing startup processor tasks
+2022-07-18 14:06:03 INFO [ssm-agent-worker] Start to listen to Core Agent termination channel
+2022-07-18 14:06:03 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: Amazon SSM Agent v3.1.1188.0 is running
+2022-07-18 14:06:03 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsProductName: Ubuntu
+2022-07-18 14:06:03 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsVersion: 18.04
+2022-07-18 18:37:03 INFO [amazon-ssm-agent] amazon-ssm-agent got signal:terminated value:0x7f954b4e2720
+2022-07-18 18:37:03 INFO [amazon-ssm-agent] Stopping Core Agent
+2022-07-18 18:37:03 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Receiving stop signal, stop worker monitor
+2022-07-18 18:37:03 INFO [ssm-agent-worker] Received termination message from core agent {"SchemaVersion":1,"Topic":"TerminateWorkerRequest","Payload":null}
+2022-07-18 18:37:03 INFO [ssm-agent-worker] Stopping ssm agent worker
+2022-07-18 18:37:04 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Received worker termination result, &{SchemaVersion:1 Topic:GetWorkerHealthResult Payload:[123 34 83 99 104 101 109 97 86 101 114 115 105 111 110 34 58 49 44 34 78 97 109 101 34 58 34 115 115 109 45 97 103 101 110 116 45 119 111 114 107 101 114 34 44 34 87 111 114 107 101 114 84 121 112 101 34 58 34 76 111 110 103 82 117 110 110 105 110 103 34 44 34 80 105 100 34 58 49 53 51 51 44 34 73 115 84 101 114 109 105 110 97 116 105 110 103 34 58 116 114 117 101 125]}
+2022-07-18 18:37:10 INFO [amazon-ssm-agent] Bye.
+2022-07-19 00:13:05 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-07-19 00:13:05 INFO Proxy environment variables:
+2022-07-19 00:13:05 INFO https_proxy: 
+2022-07-19 00:13:05 INFO http_proxy: 
+2022-07-19 00:13:05 INFO no_proxy: 
+2022-07-19 00:13:05 INFO Agent will take identity from EC2
+2022-07-19 00:13:05 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-19 00:13:05 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-19 00:13:05 INFO [amazon-ssm-agent] using named pipe channel for IPC
+2022-07-19 00:13:05 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.1.1188.0
+2022-07-19 00:13:05 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2022-07-19 00:13:05 INFO [CredentialRefresher] Identity does not require credential refresher
+2022-07-19 00:13:06 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker is not running, starting worker process
+2022-07-19 00:13:06 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] [WorkerProvider] Worker ssm-agent-worker (pid:1394) started
+2022-07-19 00:13:06 INFO [amazon-ssm-agent] [LongRunningWorkerContainer] Monitor long running worker health every 60 seconds
+2022-07-19 00:13:07 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Agent will take identity from EC2
+2022-07-19 00:13:07 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-07-19 00:13:07 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Start to listen to Core Agent termination channel
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Dial to Core Agent broadcast channel
+2022-07-19 00:13:07 INFO [ssm-agent-worker] using named pipe channel for IPC
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Create new startup processor
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Start to listen to Core Agent health channel
+2022-07-19 00:13:07 INFO [ssm-agent-worker] Entering SSM Agent hibernate - EC2RoleRequestError: no EC2 instance role found
+caused by: EC2MetadataError: failed to make EC2Metadata request
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+	status code: 404, request id: 
+2022-07-19 00:13:07 INFO [ssm-agent-worker] [StartupProcessor] Executing startup processor tasks
+2022-07-19 00:13:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: Amazon SSM Agent v3.1.1188.0 is running
+2022-07-19 00:13:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsProductName: Ubuntu
+2022-07-19 00:13:07 INFO [ssm-agent-worker] [StartupProcessor] Write to serial port: OsVersion: 18.04

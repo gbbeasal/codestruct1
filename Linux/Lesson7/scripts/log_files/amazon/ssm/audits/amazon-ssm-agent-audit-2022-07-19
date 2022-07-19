@@ -1,0 +1,3 @@
+SchemaVersion=1
+agent_telemetry amazon-ssm-agent.start 3.1.1188.0 00:13:05
+agent_telemetry ssm-agent-worker.start 3.1.1188.0 00:13:07

@@ -1,0 +1,183 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'init-local' at Sun, 26 Jun 2022 00:51:36 +0000. Up 10.55 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'init' at Sun, 26 Jun 2022 00:51:40 +0000. Up 14.42 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |     Mask    | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: |  ens5  | True |         10.0.208.228        | 255.255.0.0 | global | 06:d4:71:3d:5f:a8 |
+ci-info: |  ens5  | True | fe80::4d4:71ff:fe3d:5fa8/64 |      .      |  link  | 06:d4:71:3d:5f:a8 |
+ci-info: |   lo   | True |          127.0.0.1          |  255.0.0.0  |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |      .      |  host  |         .         |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |     0.0.0.0     |    ens5   |   UG  |
+ci-info: |   1   |   10.0.0.0  | 0.0.0.0  |   255.255.0.0   |    ens5   |   U   |
+ci-info: |   2   |   10.0.0.1  | 0.0.0.0  | 255.255.255.255 |    ens5   |   UH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    ens5   |   U   |
+ci-info: |   3   |    local    |    ::   |    ens5   |   U   |
+ci-info: |   4   |  multicast  |    ::   |    ens5   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:H5YRrFFffMSSFm7m/fhjJOBc8eJMdp3E9e/qepUCxWw root@ip-10-0-208-228
+The key's randomart image is:
++---[RSA 2048]----+
+|         oo o.+=+|
+|        . .o E=o+|
+|         o. +.Bo+|
+|        .  = O =o|
+|        S * O + +|
+|         o + = =o|
+|          .   =.o|
+|              .= |
+|            .++ o|
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:eJuD7peL12/d4uqrh7nrU+TUcPp4YUqQcfNhJelrypE root@ip-10-0-208-228
+The key's randomart image is:
++---[DSA 1024]----+
+|          .oo +o.|
+|          o..+oo |
+|           . *.  |
+|       .    = =  |
+|      . S  = * o |
+|       o o  E =  |
+|      . +o = * . |
+|     . .+.= = o .|
+|     .+o.o=X=+.. |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:uSP+2u7ko+SoJ6Gf4veentqF1vlbGY74HRkV/vg6KOY root@ip-10-0-208-228
+The key's randomart image is:
++---[ECDSA 256]---+
+|             .   |
+|            . .  |
+|             o   |
+|         .  . o  |
+|        S  o . . |
+|  .   o o.o = .  |
+| . . oo=+. *.  . |
+|o .o+=+=++o....  |
+|.+==*B=*OEo. ..  |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:xwd5tGhUHacA6Z300deDFNqz7f1eWoBWdsBp5yxpxoc root@ip-10-0-208-228
+The key's randomart image is:
++--[ED25519 256]--+
+|          o+===+o|
+|         ..+++*==|
+|         .=+oB+B+|
+|         o.oo+E.+|
+|        S o ++.+ |
+|         . o  ...|
+|               .+|
+|               oo|
+|              ..o|
++----[SHA256]-----+
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'modules:config' at Sun, 26 Jun 2022 00:51:44 +0000. Up 18.35 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+chown: cannot access '/usr/local/rvm/gems': No such file or directory
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'modules:final' at Sun, 26 Jun 2022 00:51:46 +0000. Up 20.45 seconds.
+Cloud-init v. 22.2-0ubuntu1~18.04.2 finished at Sun, 26 Jun 2022 00:51:51 +0000. Datasource DataSourceEc2Local.  Up 25.41 seconds
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'init-local' at Mon, 18 Jul 2022 14:05:55 +0000. Up 9.40 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'init' at Mon, 18 Jul 2022 14:05:58 +0000. Up 12.63 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |     Mask    | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: |  ens5  | True |         10.0.208.228        | 255.255.0.0 | global | 06:d4:71:3d:5f:a8 |
+ci-info: |  ens5  | True | fe80::4d4:71ff:fe3d:5fa8/64 |      .      |  link  | 06:d4:71:3d:5f:a8 |
+ci-info: |   lo   | True |          127.0.0.1          |  255.0.0.0  |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |      .      |  host  |         .         |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |     0.0.0.0     |    ens5   |   UG  |
+ci-info: |   1   |   10.0.0.0  | 0.0.0.0  |   255.255.0.0   |    ens5   |   U   |
+ci-info: |   2   |   10.0.0.1  | 0.0.0.0  | 255.255.255.255 |    ens5   |   UH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    ens5   |   U   |
+ci-info: |   3   |    local    |    ::   |    ens5   |   U   |
+ci-info: |   4   |  multicast  |    ::   |    ens5   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'modules:config' at Mon, 18 Jul 2022 14:06:03 +0000. Up 17.70 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.2 running 'modules:final' at Mon, 18 Jul 2022 14:06:04 +0000. Up 18.68 seconds.
+Cloud-init v. 22.2-0ubuntu1~18.04.2 finished at Mon, 18 Jul 2022 14:06:04 +0000. Datasource DataSourceEc2Local.  Up 18.81 seconds
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.3 running 'init-local' at Tue, 19 Jul 2022 00:12:59 +0000. Up 9.34 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.3 running 'init' at Tue, 19 Jul 2022 00:13:02 +0000. Up 13.05 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |     Mask    | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: |  ens5  | True |         10.0.208.228        | 255.255.0.0 | global | 06:d4:71:3d:5f:a8 |
+ci-info: |  ens5  | True | fe80::4d4:71ff:fe3d:5fa8/64 |      .      |  link  | 06:d4:71:3d:5f:a8 |
+ci-info: |   lo   | True |          127.0.0.1          |  255.0.0.0  |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |      .      |  host  |         .         |
+ci-info: +--------+------+-----------------------------+-------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |     0.0.0.0     |    ens5   |   UG  |
+ci-info: |   1   |   10.0.0.0  | 0.0.0.0  |   255.255.0.0   |    ens5   |   U   |
+ci-info: |   2   |   10.0.0.1  | 0.0.0.0  | 255.255.255.255 |    ens5   |   UH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    ens5   |   U   |
+ci-info: |   3   |    local    |    ::   |    ens5   |   U   |
+ci-info: |   4   |  multicast  |    ::   |    ens5   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.3 running 'modules:config' at Tue, 19 Jul 2022 00:13:06 +0000. Up 16.36 seconds.
+/usr/lib/python3/dist-packages/requests/__init__.py:80: RequestsDependencyWarning: urllib3 (1.26.9) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+Cloud-init v. 22.2-0ubuntu1~18.04.3 running 'modules:final' at Tue, 19 Jul 2022 00:13:07 +0000. Up 17.90 seconds.
+Cloud-init v. 22.2-0ubuntu1~18.04.3 finished at Tue, 19 Jul 2022 00:13:07 +0000. Datasource DataSourceEc2Local.  Up 18.02 seconds

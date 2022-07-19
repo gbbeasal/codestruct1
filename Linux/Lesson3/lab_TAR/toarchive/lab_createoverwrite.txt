@@ -1,0 +1,9 @@
+total 11372
+-rw-rw-r-- 1 ubuntu ubuntu 6504675 Dec 21  2020 Effects-of-COVID-19-on-trade-1-February-16-December-2020-provisional.csv
+-rw-rw-r-- 1 ubuntu ubuntu 5134576 Jun 25  2020 annual-enterprise-survey-2019-financial-year-provisional-csv.csv
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 15:36 file1.png
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 15:36 file2.png
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 15:36 file3.png
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 15:36 file4.png
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 15:36 file5.png
+-rw-rw-r-- 1 ubuntu ubuntu       0 Jul 18 16:22 lab_createoverwrite.txt

@@ -1,0 +1,26 @@
+2022-06-26 00:52:01,785 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 18, in run
+    for process_info in info.get_all_process_info():
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 39, in get_all_process_info
+    process_info = self.get_process_info(process_id)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 61, in get_process_info
+    cmd_line = file.readline()
+  File "/usr/lib/python3.6/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 233: ordinal not in range(128)
+2022-06-26 00:52:02,012 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 18, in run
+    for process_info in info.get_all_process_info():
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 39, in get_all_process_info
+    process_info = self.get_process_info(process_id)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 61, in get_process_info
+    cmd_line = file.readline()
+  File "/usr/lib/python3.6/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 233: ordinal not in range(128)

@@ -1,0 +1,31 @@
+2022-06-26 00:51:46,875 INFO Initial blacklisted packages: 
+2022-06-26 00:51:46,876 INFO Initial whitelisted packages: 
+2022-06-26 00:51:46,876 INFO Starting unattended upgrades script
+2022-06-26 00:51:46,876 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2022-06-26 00:51:48,605 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-06-26 00:52:04,329 INFO Initial blacklisted packages: 
+2022-06-26 00:52:04,331 INFO Initial whitelisted packages: 
+2022-06-26 00:52:04,331 INFO Starting unattended upgrades script
+2022-06-26 00:52:04,331 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2022-06-26 00:52:09,834 INFO Initial blacklisted packages: 
+2022-06-26 00:52:09,835 INFO Initial whitelisted packages: 
+2022-06-26 00:52:09,835 INFO Starting unattended upgrades script
+2022-06-26 00:52:09,835 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2022-06-26 00:52:13,868 INFO Packages that will be upgraded: apache2 apache2-bin apache2-data apache2-utils libssl-dev libssl1.0.0 libssl1.1 linux-libc-dev openssl
+2022-06-26 00:52:13,868 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2022-06-26 00:52:37,979 INFO All upgrades installed
+2022-07-18 14:06:13,814 INFO Initial blacklisted packages: 
+2022-07-18 14:06:13,815 INFO Initial whitelisted packages: 
+2022-07-18 14:06:13,815 INFO Starting unattended upgrades script
+2022-07-18 14:06:13,816 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2022-07-18 14:06:34,851 INFO Initial blacklisted packages: 
+2022-07-18 14:06:34,853 INFO Initial whitelisted packages: 
+2022-07-18 14:06:34,853 INFO Starting unattended upgrades script
+2022-07-18 14:06:34,853 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security
+2022-07-18 14:06:48,346 INFO Packages that will be upgraded: cloud-init curl dirmngr git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv libapache2-mod-php7.2 libcurl3-gnutls libcurl4 libnss3 libpython2.7 libpython2.7-dev libpython2.7-minimal libpython2.7-stdlib libpython3.6 libpython3.6-dev libpython3.6-minimal libpython3.6-stdlib libssl-dev libssl1.1 linux-libc-dev openssl php7.2 php7.2-cli php7.2-common php7.2-json php7.2-mysql php7.2-opcache php7.2-readline python2.7 python2.7-dev python2.7-minimal python3.6 python3.6-dev python3.6-minimal python3.6-venv
+2022-07-18 14:06:48,346 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2022-07-18 14:08:08,190 INFO All upgrades installed
+2022-07-19 00:13:19,888 INFO Initial blacklisted packages: 
+2022-07-19 00:13:19,889 INFO Initial whitelisted packages: 
+2022-07-19 00:13:19,890 INFO Starting unattended upgrades script
+2022-07-19 00:13:19,890 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESMApps,a=bionic-apps-security, o=UbuntuESM,a=bionic-infra-security

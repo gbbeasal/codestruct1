@@ -1,0 +1,20 @@
+[Mon Jun 20 16:04:51.305878 2022] [mpm_event:notice] [pid 16472:tid 140238717791168] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 20 16:04:51.306017 2022] [core:notice] [pid 16472:tid 140238717791168] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 20 16:05:05.584517 2022] [mpm_event:notice] [pid 16472:tid 140238717791168] AH00491: caught SIGTERM, shutting down
+[Mon Jun 20 16:05:05.638917 2022] [mpm_prefork:notice] [pid 18673] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 20 16:05:05.639013 2022] [core:notice] [pid 18673] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 20 16:05:05.988795 2022] [mpm_prefork:notice] [pid 18673] AH00169: caught SIGTERM, shutting down
+[Mon Jun 20 16:05:06.077111 2022] [mpm_prefork:notice] [pid 18769] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jun 20 16:05:06.077174 2022] [core:notice] [pid 18769] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jun 20 16:16:26.977840 2022] [mpm_prefork:notice] [pid 18769] AH00169: caught SIGTERM, shutting down
+[Sun Jun 26 00:51:42.191228 2022] [mpm_prefork:notice] [pid 1097] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jun 26 00:51:42.204479 2022] [core:notice] [pid 1097] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jun 26 00:52:33.160628 2022] [mpm_prefork:notice] [pid 1097] AH00169: caught SIGTERM, shutting down
+[Sun Jun 26 00:52:35.494319 2022] [mpm_prefork:notice] [pid 4783] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jun 26 00:52:35.494388 2022] [core:notice] [pid 4783] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jun 26 01:32:02.862425 2022] [mpm_prefork:notice] [pid 4783] AH00169: caught SIGTERM, shutting down
+[Mon Jul 18 14:05:59.600155 2022] [mpm_prefork:notice] [pid 1040] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Jul 18 14:05:59.606156 2022] [core:notice] [pid 1040] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jul 18 18:37:04.505929 2022] [mpm_prefork:notice] [pid 1040] AH00169: caught SIGTERM, shutting down
+[Tue Jul 19 00:13:03.982224 2022] [mpm_prefork:notice] [pid 1018] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Tue Jul 19 00:13:04.003308 2022] [core:notice] [pid 1018] AH00094: Command line: '/usr/sbin/apache2'

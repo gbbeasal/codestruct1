@@ -1,0 +1,200 @@
+
+Start-Date: 2022-06-16  17:22:03
+End-Date: 2022-06-16  17:22:03
+
+Start-Date: 2022-06-16  17:22:38
+Commandline: apt-get install -qqy grub-pc shim-signed
+Install: libefivar1:amd64 (34-1, automatic), efibootmgr:amd64 (15-1, automatic), libefiboot1:amd64 (34-1, automatic), sbsigntool:amd64 (0.9.2-2ubuntu1~18.04.2, automatic), grub-efi-amd64-bin:amd64 (2.04-1ubuntu44.1.2, automatic), mokutil:amd64 (0.3.0+1538710437.fb6250f-0ubuntu2~18.04.1, automatic), shim-signed:amd64 (1.37~18.04.11+15.4-0ubuntu9), grub-efi-amd64-signed:amd64 (1.167~18.04.5+2.04-1ubuntu44.1.2, automatic), secureboot-db:amd64 (1.4~ubuntu0.18.04.1, automatic)
+End-Date: 2022-06-16  17:22:39
+
+Start-Date: 2022-06-16  17:24:24
+Commandline: apt-get remove --purge --assume-yes grub-legacy-ec2
+Purge: grub-legacy-ec2:amd64 (1:1)
+End-Date: 2022-06-16  17:24:25
+
+Start-Date: 2022-06-16  17:24:26
+Commandline: apt-get remove --purge --assume-yes ^linux-.* linux-base+
+Purge: linux-headers-generic:amd64 (4.15.0.187.173), linux-headers-4.15.0-187-generic:amd64 (4.15.0-187.198), linux-image-4.15.0-187-generic:amd64 (4.15.0-187.198), linux-modules-4.15.0-187-generic:amd64 (4.15.0-187.198), linux-virtual:amd64 (4.15.0.187.173), linux-headers-virtual:amd64 (4.15.0.187.173), linux-headers-4.15.0-187:amd64 (4.15.0-187.198), linux-image-virtual:amd64 (4.15.0.187.173)
+End-Date: 2022-06-16  17:24:29
+
+Start-Date: 2022-06-16  17:24:34
+Commandline: apt-get install --assume-yes linux-aws
+Install: linux-aws-5.4-headers-5.4.0-1080:amd64 (5.4.0-1080.87~18.04.1, automatic), linux-image-5.4.0-1080-aws:amd64 (5.4.0-1080.87~18.04.1, automatic), linux-modules-5.4.0-1080-aws:amd64 (5.4.0-1080.87~18.04.1, automatic), linux-headers-aws:amd64 (5.4.0.1080.60, automatic), linux-aws:amd64 (5.4.0.1080.60), linux-image-aws:amd64 (5.4.0.1080.60, automatic), linux-headers-5.4.0-1080-aws:amd64 (5.4.0-1080.87~18.04.1, automatic)
+End-Date: 2022-06-16  17:24:46
+
+Start-Date: 2022-06-16  17:24:47
+Commandline: apt-get install --assume-yes hibagent
+Install: hibagent:amd64 (1.0.1-0ubuntu1)
+End-Date: 2022-06-16  17:24:48
+
+Start-Date: 2022-06-16  17:24:49
+Commandline: apt-get install --assume-yes ec2-hibinit-agent
+Install: ec2-hibinit-agent:amd64 (1.0.0-0ubuntu4~18.04.6)
+End-Date: 2022-06-16  17:24:50
+
+Start-Date: 2022-06-20  16:00:09
+Commandline: apt-get install -y python3 python3-dev python3-pip
+Install: libmpc3:amd64 (1.1.0-1, automatic), libgcc-7-dev:amd64 (7.5.0-3ubuntu1~18.04, automatic), libmpx2:amd64 (8.4.0-1ubuntu1~18.04, automatic), python3-dev:amd64 (3.6.7-1~18.04), python3-distutils:amd64 (3.6.9-1~18.04, automatic), linux-libc-dev:amd64 (4.15.0-187.198, automatic), libfakeroot:amd64 (1.22-2ubuntu1, automatic), libc6-dev:amd64 (2.27-3ubuntu1.6, automatic), libpython3.6-dev:amd64 (3.6.9-1~18.04ubuntu1.7, automatic), libexpat1-dev:amd64 (2.2.5-3ubuntu0.7, automatic), cpp-7:amd64 (7.5.0-3ubuntu1~18.04, automatic), libalgorithm-diff-perl:amd64 (1.19.03-1, automatic), libalgorithm-merge-perl:amd64 (0.08-3, automatic), binutils:amd64 (2.30-21ubuntu1~18.04.7, automatic), cpp:amd64 (4:7.4.0-1ubuntu2.3, automatic), libitm1:amd64 (8.4.0-1ubuntu1~18.04, automatic), g++:amd64 (4:7.4.0-1ubuntu2.3, automatic), python3-pip:amd64 (9.0.1-2.3~ubuntu1.18.04.5), python3-keyring:amd64 (10.6.0-1, automatic), python3-wheel:amd64 (0.30.0-0.2, automatic), gcc-7-base:amd64 (7.5.0-3ubuntu1~18.04, automatic), gcc:amd64 (4:7.4.0-1ubuntu2.3, automatic), libcilkrts5:amd64 (7.5.0-3ubuntu1~18.04, automatic), libasan4:amd64 (7.5.0-3ubuntu1~18.04, automatic), libquadmath0:amd64 (8.4.0-1ubuntu1~18.04, automatic), libisl19:amd64 (0.19-1, automatic), build-essential:amd64 (12.4ubuntu1, automatic), libfile-fcntllock-perl:amd64 (0.22-3build2, automatic), python3-xdg:amd64 (0.25-4ubuntu1.1, automatic), binutils-x86-64-linux-gnu:amd64 (2.30-21ubuntu1~18.04.7, automatic), libstdc++-7-dev:amd64 (7.5.0-3ubuntu1~18.04, automatic), libtsan0:amd64 (8.4.0-1ubuntu1~18.04, automatic), libubsan0:amd64 (7.5.0-3ubuntu1~18.04, automatic), g++-7:amd64 (7.5.0-3ubuntu1~18.04, automatic), make:amd64 (4.1-9.1ubuntu1, automatic), fakeroot:amd64 (1.22-2ubuntu1, automatic), gcc-7:amd64 (7.5.0-3ubuntu1~18.04, automatic), python3-lib2to3:amd64 (3.6.9-1~18.04, automatic), liblsan0:amd64 (8.4.0-1ubuntu1~18.04, automatic), libgomp1:amd64 (8.4.0-1ubuntu1~18.04, automatic), dh-python:amd64 (3.20180325ubuntu2, automatic), manpages-dev:amd64 (4.15-1, automatic), binutils-common:amd64 (2.30-21ubuntu1~18.04.7, automatic), python3-keyrings.alt:amd64 (3.0-1, automatic), libc-dev-bin:amd64 (2.27-3ubuntu1.6, automatic), python3-crypto:amd64 (2.6.1-8ubuntu2, automatic), libbinutils:amd64 (2.30-21ubuntu1~18.04.7, automatic), libpython3-dev:amd64 (3.6.7-1~18.04, automatic), libatomic1:amd64 (8.4.0-1ubuntu1~18.04, automatic), libcc1-0:amd64 (8.4.0-1ubuntu1~18.04, automatic), python3.6-dev:amd64 (3.6.9-1~18.04ubuntu1.7, automatic), libdpkg-perl:amd64 (1.19.0.5ubuntu2.4, automatic), python3-secretstorage:amd64 (2.3.1-2, automatic), libalgorithm-diff-xs-perl:amd64 (0.04-5, automatic), python-pip-whl:amd64 (9.0.1-2.3~ubuntu1.18.04.5, automatic), python3-setuptools:amd64 (39.0.1-2, automatic), dpkg-dev:amd64 (1.19.0.5ubuntu2.4, automatic)
+End-Date: 2022-06-20  16:00:37
+
+Start-Date: 2022-06-20  16:01:00
+Commandline: apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+Install: apt-transport-https:amd64 (1.6.14)
+End-Date: 2022-06-20  16:01:00
+
+Start-Date: 2022-06-20  16:01:13
+Commandline: apt-get install -y tar zip unzip gzip
+Install: unzip:amd64 (6.0-21ubuntu1.1), zip:amd64 (3.0-11build1)
+End-Date: 2022-06-20  16:01:14
+
+Start-Date: 2022-06-20  16:02:27
+Commandline: apt-get install -y python python-dev python-pip python3 python3-dev python3-pip python3-venv
+Install: python-six:amd64 (1.11.0-2, automatic), python2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python-xdg:amd64 (0.25-4ubuntu1.1, automatic), python3.6-venv:amd64 (3.6.9-1~18.04ubuntu1.7, automatic), python2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python-gi:amd64 (3.26.1-2ubuntu1, automatic), python-dbus:amd64 (1.2.6-1, automatic), libpython-all-dev:amd64 (2.7.15~rc1-1, automatic), libpython2.7:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python2.7:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), libpython2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python:amd64 (2.7.15~rc1-1), python-enum34:amd64 (1.1.6-2, automatic), python-cryptography:amd64 (2.1.4-1ubuntu1.4, automatic), python-crypto:amd64 (2.6.1-8ubuntu2, automatic), libpython-stdlib:amd64 (2.7.15~rc1-1, automatic), python-keyrings.alt:amd64 (3.0-1, automatic), python-cffi-backend:amd64 (1.11.5-1, automatic), python-ipaddress:amd64 (1.0.17-1, automatic), libpython-dev:amd64 (2.7.15~rc1-1, automatic), python3-venv:amd64 (3.6.7-1~18.04), python-pkg-resources:amd64 (39.0.1-2, automatic), python-all:amd64 (2.7.15~rc1-1, automatic), python-secretstorage:amd64 (2.3.1-2, automatic), python-dev:amd64 (2.7.15~rc1-1), python-setuptools:amd64 (39.0.1-2, automatic), python-keyring:amd64 (10.6.0-1, automatic), libpython2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python-idna:amd64 (2.6-1, automatic), python-wheel:amd64 (0.30.0-0.2, automatic), libpython2.7-stdlib:amd64 (2.7.17-1~18.04ubuntu1.7, automatic), python-minimal:amd64 (2.7.15~rc1-1, automatic), python-pip:amd64 (9.0.1-2.3~ubuntu1.18.04.5), python-asn1crypto:amd64 (0.24.0-1, automatic), python-all-dev:amd64 (2.7.15~rc1-1, automatic)
+End-Date: 2022-06-20  16:02:36
+
+Start-Date: 2022-06-20  16:04:09
+Commandline: apt-get install -y nodejs
+Install: libc-ares2:amd64 (1.14.0-1ubuntu0.1, automatic), libhttp-parser2.7.1:amd64 (2.7.1-2, automatic), nodejs:amd64 (8.10.0~dfsg-2ubuntu0.4), nodejs-doc:amd64 (8.10.0~dfsg-2ubuntu0.4, automatic)
+End-Date: 2022-06-20  16:04:10
+
+Start-Date: 2022-06-20  16:04:33
+Commandline: apt-get install -y apache2 php php-pecl-http php-xdebug mysql-client mysql-server php-mysql sqlite sqlite3
+Install: libhttp-message-perl:amd64 (6.14-1, automatic), php-http:amd64 (3.1.0+2.6.0-4build8, automatic), php7.2-common:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), libencode-locale-perl:amd64 (1.05-1, automatic), php7.2-cli:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), php-xdebug:amd64 (2.6.0-0ubuntu1), mysql-client-5.7:amd64 (5.7.38-0ubuntu0.18.04.1, automatic), libevent-core-2.1-6:amd64 (2.1.8-stable-4build1, automatic), php-raphf:amd64 (2.0.0+1.1.2-2build2, automatic), mysql-server-5.7:amd64 (5.7.38-0ubuntu0.18.04.1, automatic), php-common:amd64 (1:60ubuntu1, automatic), libaprutil1:amd64 (1.6.1-2, automatic), php7.2-mysql:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), mysql-server:amd64 (5.7.38-0ubuntu0.18.04.1), mysql-client:amd64 (5.7.38-0ubuntu0.18.04.1), php7.2:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), libcgi-fast-perl:amd64 (1:2.13-1, automatic), libhttp-date-perl:amd64 (6.02-1, automatic), liblwp-mediatypes-perl:amd64 (6.02-1, automatic), libfcgi-perl:amd64 (0.78-2build1, automatic), libcgi-pm-perl:amd64 (4.38-1, automatic), libaprutil1-dbd-sqlite3:amd64 (1.6.1-2, automatic), libaio1:amd64 (0.3.110-5ubuntu0.1, automatic), php7.2-json:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), php7.2-opcache:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), libio-html-perl:amd64 (1.001-1, automatic), ssl-cert:amd64 (1.0.39, automatic), apache2-data:amd64 (2.4.29-1ubuntu4.23, automatic), php-pecl-http:amd64 (3.1.0+2.6.0-4build8), libapr1:amd64 (1.6.3-2, automatic), sqlite3:amd64 (3.22.0-1ubuntu0.5), libaprutil1-ldap:amd64 (1.6.1-2, automatic), libhtml-tagset-perl:amd64 (3.20-3, automatic), mysql-client-core-5.7:amd64 (5.7.38-0ubuntu0.18.04.1, automatic), php:amd64 (1:7.2+60ubuntu1), php7.2-readline:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), sqlite:amd64 (2.8.17-14fakesync1), liblua5.2-0:amd64 (5.2.4-1.1build1, automatic), mysql-common:amd64 (5.8+1.0.4, automatic), libsodium23:amd64 (1.0.16-2, automatic), libhtml-template-perl:amd64 (2.97-1, automatic), libtimedate-perl:amd64 (2.3000-2, automatic), apache2-bin:amd64 (2.4.29-1ubuntu4.23, automatic), apache2:amd64 (2.4.29-1ubuntu4.23), php-mysql:amd64 (1:7.2+60ubuntu1), libsqlite0:amd64 (2.8.17-14fakesync1, automatic), apache2-utils:amd64 (2.4.29-1ubuntu4.23, automatic), libhtml-parser-perl:amd64 (3.72-3build1, automatic), libapache2-mod-php7.2:amd64 (7.2.24-0ubuntu0.18.04.12, automatic), liburi-perl:amd64 (1.73-1, automatic), mysql-server-core-5.7:amd64 (5.7.38-0ubuntu0.18.04.1, automatic), php-propro:amd64 (2.0.1+1.0.2-1build2, automatic)
+End-Date: 2022-06-20  16:05:07
+
+Start-Date: 2022-06-20  16:08:17
+Commandline: apt-get install -y terraform=0.14.4
+Install: terraform:amd64 (0.14.4)
+End-Date: 2022-06-20  16:08:18
+
+Start-Date: 2022-06-20  16:08:43
+Commandline: apt-get install -y docker-ce
+Install: containerd.io:amd64 (1.6.6-1, automatic), docker-ce-rootless-extras:amd64 (5:20.10.17~3-0~ubuntu-bionic, automatic), libltdl7:amd64 (2.4.6-2, automatic), pigz:amd64 (2.4-1, automatic), docker-scan-plugin:amd64 (0.17.0~ubuntu-bionic, automatic), docker-ce:amd64 (5:20.10.17~3-0~ubuntu-bionic), docker-ce-cli:amd64 (5:20.10.17~3-0~ubuntu-bionic, automatic)
+End-Date: 2022-06-20  16:09:01
+
+Start-Date: 2022-06-20  16:11:39
+Commandline: apt-get --no-install-recommends --yes install autoconf automake bison libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev libtool libyaml-dev pkg-config zlib1g-dev libgmp-dev libreadline-dev libssl-dev
+Requested-By: ubuntu (1000)
+Install: libyaml-dev:amd64 (0.1.7-2ubuntu3), autotools-dev:amd64 (20180224.1, automatic), m4:amd64 (1.4.18-1, automatic), libsqlite3-dev:amd64 (3.22.0-1ubuntu0.5), libffi-dev:amd64 (3.2.1-8), automake:amd64 (1:1.15.1-3ubuntu2), libgmp-dev:amd64 (2:6.1.2+dfsg-2), libgdbm-dev:amd64 (1.14.1-6), zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu2.1), libgmpxx4ldbl:amd64 (2:6.1.2+dfsg-2, automatic), libbison-dev:amd64 (2:3.0.4.dfsg-1build1, automatic), autoconf:amd64 (2.69-11), pkg-config:amd64 (0.29.1-0ubuntu2), libncurses5-dev:amd64 (6.1-1ubuntu1.18.04), libtinfo-dev:amd64 (6.1-1ubuntu1.18.04, automatic), libssl-dev:amd64 (1.1.1-1ubuntu2.1~18.04.17), bison:amd64 (2:3.0.4.dfsg-1build1), libreadline-dev:amd64 (7.0-3), libtool:amd64 (2.4.6-2)
+End-Date: 2022-06-20  16:11:42
+
+Start-Date: 2022-06-20  16:13:07
+Commandline: apt-get install -y openjdk-11-jdk-headless
+Install: ca-certificates-java:amd64 (20180516ubuntu1~18.04.1, automatic), libcups2:amd64 (2.2.7-1ubuntu2.9, automatic), libpcsclite1:amd64 (1.8.23-1, automatic), liblcms2-2:amd64 (2.9-1ubuntu0.1, automatic), libasound2-data:amd64 (1.1.3-5ubuntu0.6, automatic), libavahi-common-data:amd64 (0.7-3.1ubuntu1.3, automatic), libavahi-common3:amd64 (0.7-3.1ubuntu1.3, automatic), fontconfig-config:amd64 (2.12.6-0ubuntu2, automatic), openjdk-11-jre-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1, automatic), fonts-dejavu-core:amd64 (2.37-1, automatic), libjpeg8:amd64 (8c-2ubuntu8, automatic), libfontconfig1:amd64 (2.12.6-0ubuntu2, automatic), libasound2:amd64 (1.1.3-5ubuntu0.6, automatic), libgraphite2-3:amd64 (1.3.11-2, automatic), libjpeg-turbo8:amd64 (1.5.2-0ubuntu5.18.04.4, automatic), libnss3:amd64 (2:3.35-2ubuntu2.14, automatic), libharfbuzz0b:amd64 (1.7.2-1ubuntu1, automatic), libavahi-client3:amd64 (0.7-3.1ubuntu1.3, automatic), openjdk-11-jdk-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1), java-common:amd64 (0.68ubuntu1~18.04.1, automatic), libnspr4:amd64 (2:4.18-1ubuntu1, automatic)
+End-Date: 2022-06-20  16:13:27
+
+Start-Date: 2022-06-20  16:13:34
+Commandline: apt-get install -y golang-1.9-go
+Install: golang-1.9-race-detector-runtime:amd64 (0.0+svn285455-0ubuntu1, automatic), golang-1.9-go:amd64 (1.9.4-1ubuntu1), golang-1.9-src:amd64 (1.9.4-1ubuntu1, automatic)
+End-Date: 2022-06-20  16:13:39
+
+Start-Date: 2022-06-20  16:14:38
+Commandline: apt-get install -y gdb-dbg
+Install: libdw1:amd64 (0.170-0.4ubuntu0.1, automatic), libc6-dbg:amd64 (2.27-3ubuntu1.6, automatic), libbabeltrace1:amd64 (1.5.5-1, automatic), gdb:amd64 (8.1.1-0ubuntu1, automatic), gdb-dbg:amd64 (8.1.1-0ubuntu1), gdbserver:amd64 (8.1.1-0ubuntu1, automatic)
+End-Date: 2022-06-20  16:14:43
+
+Start-Date: 2022-06-20  16:16:07
+Commandline: apt-get -y -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold dist-upgrade -y
+Upgrade: terraform:amd64 (0.14.4, 1.2.3)
+End-Date: 2022-06-20  16:16:08
+
+Start-Date: 2022-06-26  00:52:17
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl1.0.0:amd64 (1.0.2n-1ubuntu5.9, 1.0.2n-1ubuntu5.10)
+End-Date: 2022-06-26  00:52:19
+
+Start-Date: 2022-06-26  00:52:22
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-libc-dev:amd64 (4.15.0-187.198, 4.15.0-188.199)
+End-Date: 2022-06-26  00:52:23
+
+Start-Date: 2022-06-26  00:52:25
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (1.1.1-1ubuntu2.1~18.04.17, 1.1.1-1ubuntu2.1~18.04.19)
+End-Date: 2022-06-26  00:52:26
+
+Start-Date: 2022-06-26  00:52:29
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl-dev:amd64 (1.1.1-1ubuntu2.1~18.04.17, 1.1.1-1ubuntu2.1~18.04.19), libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.17, 1.1.1-1ubuntu2.1~18.04.19)
+End-Date: 2022-06-26  00:52:29
+
+Start-Date: 2022-06-26  00:52:32
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apache2-data:amd64 (2.4.29-1ubuntu4.23, 2.4.29-1ubuntu4.25), apache2-bin:amd64 (2.4.29-1ubuntu4.23, 2.4.29-1ubuntu4.25), apache2:amd64 (2.4.29-1ubuntu4.23, 2.4.29-1ubuntu4.25), apache2-utils:amd64 (2.4.29-1ubuntu4.23, 2.4.29-1ubuntu4.25)
+End-Date: 2022-06-26  00:52:36
+
+Start-Date: 2022-07-18  14:07:04
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: cloud-init:amd64 (22.2-0ubuntu1~18.04.2, 22.2-0ubuntu1~18.04.3)
+End-Date: 2022-07-18  14:07:07
+
+Start-Date: 2022-07-18  14:07:10
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.17.1-1ubuntu0.11, 1:2.17.1-1ubuntu0.12)
+End-Date: 2022-07-18  14:07:11
+
+Start-Date: 2022-07-18  14:07:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.17.1-1ubuntu0.11, 1:2.17.1-1ubuntu0.12)
+End-Date: 2022-07-18  14:07:15
+
+Start-Date: 2022-07-18  14:07:18
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl3-gnutls:amd64 (7.58.0-2ubuntu3.18, 7.58.0-2ubuntu3.19)
+End-Date: 2022-07-18  14:07:18
+
+Start-Date: 2022-07-18  14:07:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libnss3:amd64 (2:3.35-2ubuntu2.14, 2:3.35-2ubuntu2.15)
+End-Date: 2022-07-18  14:07:21
+
+Start-Date: 2022-07-18  14:07:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-libc-dev:amd64 (4.15.0-188.199, 4.15.0-189.200)
+End-Date: 2022-07-18  14:07:23
+
+Start-Date: 2022-07-18  14:07:26
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (1.1.1-1ubuntu2.1~18.04.19, 1.1.1-1ubuntu2.1~18.04.20)
+End-Date: 2022-07-18  14:07:27
+
+Start-Date: 2022-07-18  14:07:29
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: php7.2:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13)
+End-Date: 2022-07-18  14:07:29
+
+Start-Date: 2022-07-18  14:07:32
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl4:amd64 (7.58.0-2ubuntu3.18, 7.58.0-2ubuntu3.19), curl:amd64 (7.58.0-2ubuntu3.18, 7.58.0-2ubuntu3.19)
+End-Date: 2022-07-18  14:07:32
+
+Start-Date: 2022-07-18  14:07:35
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl-dev:amd64 (1.1.1-1ubuntu2.1~18.04.19, 1.1.1-1ubuntu2.1~18.04.20), libssl1.1:amd64 (1.1.1-1ubuntu2.1~18.04.19, 1.1.1-1ubuntu2.1~18.04.20)
+End-Date: 2022-07-18  14:07:35
+
+Start-Date: 2022-07-18  14:07:38
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: php7.2-common:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), php7.2-cli:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), php7.2-mysql:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), php7.2-json:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), php7.2-opcache:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), php7.2-readline:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13), libapache2-mod-php7.2:amd64 (7.2.24-0ubuntu0.18.04.12, 7.2.24-0ubuntu0.18.04.13)
+End-Date: 2022-07-18  14:07:47
+
+Start-Date: 2022-07-18  14:07:49
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), python2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), libpython2.7:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), python2.7:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), libpython2.7-dev:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), libpython2.7-minimal:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8), libpython2.7-stdlib:amd64 (2.7.17-1~18.04ubuntu1.7, 2.7.17-1~18.04ubuntu1.8)
+End-Date: 2022-07-18  14:07:53
+
+Start-Date: 2022-07-18  14:07:56
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libpython3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), libpython3.6-dev:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), python3.6-venv:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), libpython3.6-stdlib:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), libpython3.6:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), python3.6:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), python3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8), python3.6-dev:amd64 (3.6.9-1~18.04ubuntu1.7, 3.6.9-1~18.04ubuntu1.8)
+End-Date: 2022-07-18  14:08:02
+
+Start-Date: 2022-07-18  14:08:04
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: gnupg-utils:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpg-wks-client:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gnupg-l10n:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpg-wks-server:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpg:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), dirmngr:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpgv:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gnupg:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpg-agent:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpgconf:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6), gpgsm:amd64 (2.2.4-1ubuntu1.5, 2.2.4-1ubuntu1.6)
+End-Date: 2022-07-18  14:08:06
+
+Start-Date: 2022-07-18  15:30:19
+Commandline: apt install tree
+Requested-By: ubuntu (1000)
+Install: tree:amd64 (1.7.0-5)
+End-Date: 2022-07-18  15:30:20
